@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cột bên trái */
+.left-column {
+    width: 30%;
+    background: #2E6D50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.profile-pic img {
+    width: 200px;  /* Tăng kích thước ảnh lên */
+    height: 200px; /* Đảm bảo tỷ lệ ảnh là hình tròn */
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid white; /* Viền trắng để ảnh nổi bật hơn */
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.section h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Cột bên phải */
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+.section h3 {
+    color: #2E6D50;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience, .education {
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.progress-bar div {
+    height: 100%;
+    background: #2E6D50;
+    border-radius: 5px;
+}
+
+/* Portfolio */
+.portfolio {
+    display: flex;
+    gap: 10px;
+}
+
+.project {
+    background: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2E6D50;
+    font-weight: bold;
+}
